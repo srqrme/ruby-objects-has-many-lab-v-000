@@ -1,5 +1,5 @@
 class Post
-<<<<<<< HEAD
+
   attr_accessor :author
 
   @@all = []
@@ -16,6 +16,4 @@ class Post
   def author_name
     self.author ? self.author.name : nil
   end
-=======
->>>>>>> 17903c4a434adda36f61c5b0a3e2476761b02bd0
 end
